@@ -50,7 +50,7 @@ module.exports = {
       httpres.on('data', function (chunk) {
         data += chunk;
       });
-      httpres.on('end', function(){
+      httpres.on('end', function() {
         res.view({summoner: JSON.parse(data)});
       });
     });
