@@ -1,0 +1,11 @@
+body {
+    background-image: url('http://cdn.leagueoflegends.com/lolkit/1.1.5/resources/images/header-bg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+}
+
+.btn-summoner {
+    margin-left: 150px;
+    margin-top: 32px;
+}
